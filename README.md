@@ -3,10 +3,15 @@
 ## Instructions
 
 1)Clone this repo 
+
 2)Navigate to the folder 'mongo' then inside it open the file 'docker-compose.yml'
+
 3)Inside 'docker-compose.yml' correctly indicate the username, password, and database name for your own mongoDB database
+
 4)Make sure that your mongoDB database has a collection called 'mongo' inside it
+
 5)Navigate to 'mongoDB' -> 'mongo' inside terminal. Make sure that docker is open. Then run the command: $ docker-compose up --build
+
 6)Done! The server is now running on port 8080 and is able to receive requests.
 
 ## Requests examples
